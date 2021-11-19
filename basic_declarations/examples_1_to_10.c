@@ -1,4 +1,3 @@
-
 #include ".\include\main.h"
 
 int example_1(void) {
@@ -129,16 +128,43 @@ int example_8(void) {
 	printf("Number of weeks is %u\n", weeks);
 	printf("Number of days is %u\n", days);
 
-
 	return SUCCESS;
 }
 
 int example_9(void) {
-	printf("ex9\n");
+	int input_1 = 0, input_2 = 0, sum = 0;
+
+	printf("Intput two values to be summed\n");
+	printf("Value one?");
+	while(!scanf_s("%d", &input_1)){
+		printf("Bad input, try again\n");
+	}
+	printf("Value two?");
+	while (!scanf_s("%d", &input_2)) {
+		printf("Bad input, try again\n");
+	}
+
+	sum = input_1 + input_2;
+	printf("The sum of the values is %d\n", sum);
+
 	return SUCCESS;
 }
 
 int example_10(void) {
-	printf("ex10\n");
+	int input_1 = 0, input_2 = 0, product = 0;
+
+	printf("Intput two values to be multiplied\n");
+	printf("Value one?");
+	while (!scanf_s("%d", &input_1)) {
+		printf("Bad input, try again\n");
+	}
+	printf("Value two?");
+	while (!scanf_s("%d", &input_2)) {
+		printf("Bad input, try again\n");
+	}
+
+	product = input_1 * input_2;
+	printf("The product of the values is %d\n", product);
+
 	return SUCCESS;
 }

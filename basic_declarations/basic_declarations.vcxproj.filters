@@ -21,12 +21,24 @@
     <ClCompile Include="examples_1_to_10.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="examples_11_to_20.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\examples_1_to_10.h">
+    <ClInclude Include="include\examples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\examples_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\examples_def.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

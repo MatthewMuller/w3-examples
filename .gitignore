@@ -54,3 +54,6 @@ dkms.conf
 # Visual Studio Stuff
 .vs
 .vs/*
+x64/*
+
+basic_declarations/x64/*
