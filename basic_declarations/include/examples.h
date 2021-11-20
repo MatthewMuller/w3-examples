@@ -21,7 +21,3 @@ RETURN_CODE_ENUM_TYPE example_17(void);
 RETURN_CODE_ENUM_TYPE example_18(void);
 RETURN_CODE_ENUM_TYPE example_19(void);
 RETURN_CODE_ENUM_TYPE example_20(void);
-
-
-
-

@@ -18,8 +18,9 @@ typedef enum RUN_MODE {
 } RUN_MODE_TYPE;
 
 typedef struct EXAMPLE {
-	RETURN_CODE_ENUM_TYPE (* fp)(void);
+	RETURN_CODE_ENUM_TYPE (*fp)(void);
 	int example_number;
 	char padding[4];
 } EXAMPLE_TYPE;
+
 #endif

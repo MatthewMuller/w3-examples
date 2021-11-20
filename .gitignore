@@ -55,5 +55,10 @@ dkms.conf
 .vs
 .vs/*
 x64/*
-
 basic_declarations/x64/*
+
+# CMake files
+basic_declarations/CMakeFiles/*
+basic_declarations/bin/*
+basic_declarations/cmake_install.cmake
+basic_declarations/CMakeCache.txt
