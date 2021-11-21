@@ -105,15 +105,15 @@ RETURN_CODE_ENUM_TYPE example_8(void) {
 	//days_remaining = total_num_of_days;
 
 	///* calculate and remove number of years */
-	//years = total_num_of_days / 365;
-	//days_remaining = days_remaining - (365 * years);
+	// years = total_num_of_days / 365;
+	// days_remaining = days_remaining - (365 * years);
 
 	///* calculate and remove number of weeks */
-	//weeks = days_remaining / 7;
-	//days_remaining = days_remaining - (7 * weeks);
+	// weeks = days_remaining / 7;
+	// days_remaining = days_remaining - (7 * weeks);
 
 	///* calculate number of days */
-	//days = days_remaining;
+	// days = days_remaining;
 
 	/* SOLUTION 2*/
 	const unsigned int total_num_of_days = 1329;

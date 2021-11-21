@@ -19,7 +19,7 @@ call_example(RETURN_CODE_ENUM_TYPE (*example_to_run)(void),
 	return SUCCESS;
 }
 
-const char* return_code_tostring(RETURN_CODE_ENUM_TYPE return_code) {
+const char *return_code_tostring(RETURN_CODE_ENUM_TYPE return_code) {
 	switch (return_code) {
 	case SUCCESS:
 		return "SUCCESS";
@@ -32,7 +32,7 @@ const char* return_code_tostring(RETURN_CODE_ENUM_TYPE return_code) {
 };
 
 RETURN_CODE_ENUM_TYPE
-decide_run_mode(int menu_option, int total_examples, RUN_MODE_TYPE* run_mode) {
+decide_run_mode(int menu_option, int total_examples, RUN_MODE_TYPE *run_mode) {
 	if (RUN_ALL_TESTS == menu_option) {
 		*run_mode = ALLTESTS;
 	} else if (RUN_ALL_TESTS < menu_option && total_examples > menu_option) {

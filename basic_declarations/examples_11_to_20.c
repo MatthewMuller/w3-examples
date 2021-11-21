@@ -54,34 +54,18 @@ RETURN_CODE_ENUM_TYPE example_12(void) {
 	return SUCCESS;
 }
 
-RETURN_CODE_ENUM_TYPE example_13(void) {
-	return SUCCESS;
-}
+RETURN_CODE_ENUM_TYPE example_13(void) { return SUCCESS; }
 
-RETURN_CODE_ENUM_TYPE example_14(void) {
-	return SUCCESS;
-}
+RETURN_CODE_ENUM_TYPE example_14(void) { return SUCCESS; }
 
-RETURN_CODE_ENUM_TYPE example_15(void) {
-	return SUCCESS;
-}
+RETURN_CODE_ENUM_TYPE example_15(void) { return SUCCESS; }
 
-RETURN_CODE_ENUM_TYPE example_16(void) {
-	return SUCCESS;
-}
+RETURN_CODE_ENUM_TYPE example_16(void) { return SUCCESS; }
 
-RETURN_CODE_ENUM_TYPE example_17(void) {
-	return SUCCESS;
-}
+RETURN_CODE_ENUM_TYPE example_17(void) { return SUCCESS; }
 
-RETURN_CODE_ENUM_TYPE example_18(void) {
-	return SUCCESS;
-}
+RETURN_CODE_ENUM_TYPE example_18(void) { return SUCCESS; }
 
-RETURN_CODE_ENUM_TYPE example_19(void) {
-	return SUCCESS;
-}
+RETURN_CODE_ENUM_TYPE example_19(void) { return SUCCESS; }
 
-RETURN_CODE_ENUM_TYPE example_20(void) {
-	return SUCCESS;
-}
+RETURN_CODE_ENUM_TYPE example_20(void) { return SUCCESS; }

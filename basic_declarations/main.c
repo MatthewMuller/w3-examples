@@ -11,16 +11,16 @@ EXAMPLE_TYPE examples[TOTAL_EXAMPLES] = {
 	{example_17, 17}, {example_18, 18}, {example_19, 19}, {example_20, 20}};
 
 /*
-*	main()
-* 
-*	@param argc number of arguments
-*	@param argv	list of arguments
-*
-*	@brief main function that calls w3 examples
-*/
+ *	main()
+ *
+ *	@param argc number of arguments
+ *	@param argv	list of arguments
+ *
+ *	@brief main function that calls w3 examples
+ */
 int main(void) {
 	int example_index = 0, menu_option = 0;
-	EXAMPLE_TYPE* current_example = NULL;
+	EXAMPLE_TYPE *current_example = NULL;
 	RUN_MODE_TYPE run_mode = INVALID_RUNMODE;
 
 	while (true) {
@@ -59,10 +59,8 @@ int main(void) {
 			break;
 		case INVALID:
 		default:
-			printf("Selection of %d must be between %d and %d\n",
-				   menu_option,
-				   RUN_ALL_TESTS,
-				   TOTAL_EXAMPLES);
+			printf("Selection of %d must be between %d and %d\n", menu_option,
+				   RUN_ALL_TESTS, TOTAL_EXAMPLES);
 			break;
 		}
 	}
