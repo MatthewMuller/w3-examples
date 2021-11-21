@@ -21,7 +21,7 @@ EXAMPLE_TYPE examples[TOTAL_EXAMPLES] = {
 int main(void) {
 	int example_index = 0, menu_option = 0;
 	EXAMPLE_TYPE* current_example = NULL;
-	RUN_MODE_TYPE run_mode = INVALID;
+	RUN_MODE_TYPE run_mode = INVALID_RUNMODE;
 
 	while (true) {
 		printf("Enter example number to run that number, or "

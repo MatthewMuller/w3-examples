@@ -38,7 +38,7 @@ decide_run_mode(int menu_option, int total_examples, RUN_MODE_TYPE* run_mode) {
 	} else if (RUN_ALL_TESTS < menu_option && total_examples > menu_option) {
 		*run_mode = SINGLETEST;
 	} else {
-		*run_mode = INVALID;
+		*run_mode = INVALID_RUNMODE;
 	}
 	return SUCCESS;
 }
