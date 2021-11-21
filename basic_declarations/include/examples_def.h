@@ -1,5 +1,5 @@
-#ifndef _EXAMPLES_DEF_H
-#define _EXAMPLES_DEF_H
+#ifndef EXAMPLES_DEF_H
+#define EXAMPLES_DEF_H
 
 #define TOTAL_EXAMPLES 150
 #define RUN_ALL_TESTS 0

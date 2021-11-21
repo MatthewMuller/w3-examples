@@ -1,0 +1,2 @@
+Checks: '-*,bugprone-*,cert-*,llvm-*,misc-*,modernize-*,performance-*,readability-*'
+FormatStyle: 'file'
